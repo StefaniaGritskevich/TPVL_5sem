@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cache-Control Demo</title>
+    <link rel="stylesheet" href="/css?cache_param=etag">
+</head>
+<body>
+  
+    <h3>JS-сценарий</h3>
+    <script src="/script?cache_param=max-age"></script>
+    <script src="/script?cache_param=last-modified"></script>
+
+    <h2>Image</h2>
+    <img src="/image?cache_param=no-store" alt="Cached Image"/>
+    <img src="/image?cache_param=expired" alt="Expired Image"/>
+
+</body>
+</html>

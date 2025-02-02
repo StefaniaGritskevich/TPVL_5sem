@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cache-Control Demo</title>
+    <!-- Подключаем CSS через тег <link> -->
+    <link rel="stylesheet" type="text/css" href="/styles?cache_param=max-age">
+</head>
+<body>
+    <h1>Cache-Control Demonstration</h1>
+
+    <h2>Image with caching</h2>
+    <img src="/image?cache_param=max-age" alt="Cached Image">
+
+    <h2>Script with caching</h2>
+    <h3>JS-сценарий</h3>
+    <script src="/script?cache_param=max-age"></script>
+
+</body>
+</html>
